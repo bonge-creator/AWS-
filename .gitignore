@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/uploads/
+
+# Node
+node_modules/
+.next/
+frontend/.env*
+!frontend/.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
